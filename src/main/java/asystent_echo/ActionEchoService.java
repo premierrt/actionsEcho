@@ -10,7 +10,7 @@ public class ActionEchoService {
 
 	
 	public String echoRespone(String jsonString) {
-		log.info("*********Echo service: " + jsonString);
+		log.info("********* Echo service: " + jsonString);
 		return "echo backend";
 	}
 }
